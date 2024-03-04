@@ -34,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/Page_Crdit Auto  QSI Conseil/butto
 
 WebUI.verifyElementText(findTestObject('Page_Crdit Auto  QSI Conseil/h4_Bienvenue sur lapplication Crdit Auto'), 'Bienvenue sur l\'application Crédit Auto')
 
+WebUI.waitForElementPresent(findTestObject('Page_Crdit Auto  QSI Conseil/a_Dconnexion'), 30)
+
 WebUI.click(findTestObject('Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto'), 0)
