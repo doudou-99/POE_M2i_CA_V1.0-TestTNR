@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>68c69353-3c5a-41c1-80af-06a0a4e93881</dataFileGUID>
-   <dataSourceUrl>.\CA_JDD_Authentification_V1.0.xlsx</dataSourceUrl>
+   <dataSourceUrl>CA_JDD_Authentification_V1.0.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Feuil1</sheetName>
