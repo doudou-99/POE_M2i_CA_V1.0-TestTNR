@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legend_Connectez-vous</name>
+   <tag></tag>
+   <elementGuidId>8479c984-fb62-4d8a-b8b9-0c0561824b48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/legend</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>legend</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Connectez-vous&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legend</value>
+      <webElementGuid>a2184735-b7f5-4b24-a414-bf23d73e684f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Connectez-vous</value>
+      <webElementGuid>29fc12c9-3803-4000-b672-0602324cf07d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;offset-lg-3 offset-md-3 offset-sm-3 col-sm-6&quot;]/div[@class=&quot;jumbotron&quot;]/form[1]/fieldset[1]/legend[1]</value>
+      <webElementGuid>733b1a30-7200-4a83-a4d1-a4ed3b381c63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/legend</value>
+      <webElementGuid>558f03dc-e1d6-43b2-a8f9-8d7891d557da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/following::legend[1]</value>
+      <webElementGuid>43d09bb5-cdb6-4481-a1fd-e24f38971384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crédit Auto'])[1]/following::legend[1]</value>
+      <webElementGuid>2369d2ae-9e1e-4b50-aa25-0c6d8b970ec7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mot de passe'])[1]/preceding::legend[1]</value>
+      <webElementGuid>6dc0d8cc-4b6d-4f76-a9a3-b92f3e49108d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Connectez-vous']/parent::*</value>
+      <webElementGuid>4140a686-e70b-4dd9-acc0-50195bef7792</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//legend</value>
+      <webElementGuid>ac8ddf16-b067-48f9-819d-6bffd4639379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//legend[(text() = ' Connectez-vous' or . = ' Connectez-vous')]</value>
+      <webElementGuid>37acc085-d236-4bbf-94e4-77ec9726683a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

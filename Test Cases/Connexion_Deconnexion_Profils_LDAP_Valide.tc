@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Connexion_Deconnexion_Profils_LDAP_Valide</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>277b2950-69d8-466c-8e67-ea997fd70848</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>dafe2d89-e88c-4c1e-a921-3cf8b46cb1e8</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Authentification/CA_JDD_Authentification_V1.0</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0da274b0-13d5-4fa7-8765-0c9769b28395</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5bb26713-90a8-4214-86ae-29c717687543</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'rcd'</defaultValue>
+      <description></description>
+      <id>0da274b0-13d5-4fa7-8765-0c9769b28395</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'acial!rcd2018'</defaultValue>
+      <description></description>
+      <id>5bb26713-90a8-4214-86ae-29c717687543</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

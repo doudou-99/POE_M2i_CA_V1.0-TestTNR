@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentification,Chrome 122.0.0.0,,,04-03-2024 12:23:58,04-03-2024 12:25:05,"1m - 6,771s",PASSED
+,,,,,,,
+Test Cases/Connexion_Deconnexion_LDAP_Valide,Chrome 122.0.0.0,,,04-03-2024 12:23:59,04-03-2024 12:24:18,"19,396s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 12:24:00,04-03-2024 12:24:05,"5,464s",PASSED
+"navigateToUrl(""http://credit-auto.qsiconseil.ma/"")",Chrome 122.0.0.0,,,04-03-2024 12:24:05,04-03-2024 12:24:10,"4,530s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto""))",Chrome 122.0.0.0,,,04-03-2024 12:24:10,04-03-2024 12:24:12,"2,083s",PASSED
+"setText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username""), user)",Chrome 122.0.0.0,,,04-03-2024 12:24:12,04-03-2024 12:24:13,"1,134s",PASSED
+"setMaskedText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password""),*********)",Chrome 122.0.0.0,,,04-03-2024 12:24:13,04-03-2024 12:24:14,"1,275s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter""))",Chrome 122.0.0.0,,,04-03-2024 12:24:14,04-03-2024 12:24:16,"1,466s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion""))",Chrome 122.0.0.0,,,04-03-2024 12:24:16,04-03-2024 12:24:17,"1,181s",PASSED
+closeBrowser(),Chrome 122.0.0.0,,,04-03-2024 12:24:17,04-03-2024 12:24:18,"0,975s",PASSED
+,,,,,,,
+Test Cases/Connexion_Deconnexion_LDAP_Valide,Chrome 122.0.0.0,,,04-03-2024 12:24:18,04-03-2024 12:24:33,"14,913s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 12:24:18,04-03-2024 12:24:21,"2,340s",PASSED
+"navigateToUrl(""http://credit-auto.qsiconseil.ma/"")",Chrome 122.0.0.0,,,04-03-2024 12:24:21,04-03-2024 12:24:25,"4,330s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto""))",Chrome 122.0.0.0,,,04-03-2024 12:24:25,04-03-2024 12:24:27,"1,554s",PASSED
+"setText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username""), user)",Chrome 122.0.0.0,,,04-03-2024 12:24:27,04-03-2024 12:24:28,"1,021s",PASSED
+"setMaskedText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password""),*********)",Chrome 122.0.0.0,,,04-03-2024 12:24:28,04-03-2024 12:24:29,"1,166s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter""))",Chrome 122.0.0.0,,,04-03-2024 12:24:29,04-03-2024 12:24:31,"2,048s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion""))",Chrome 122.0.0.0,,,04-03-2024 12:24:31,04-03-2024 12:24:32,"1,611s",PASSED
+closeBrowser(),Chrome 122.0.0.0,,,04-03-2024 12:24:32,04-03-2024 12:24:33,"0,716s",PASSED
+,,,,,,,
+Test Cases/Connexion_Deconnexion_LDAP_Valide,Chrome 122.0.0.0,,,04-03-2024 12:24:33,04-03-2024 12:24:47,"14,176s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 12:24:33,04-03-2024 12:24:36,"2,321s",PASSED
+"navigateToUrl(""http://credit-auto.qsiconseil.ma/"")",Chrome 122.0.0.0,,,04-03-2024 12:24:36,04-03-2024 12:24:40,"4,336s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto""))",Chrome 122.0.0.0,,,04-03-2024 12:24:40,04-03-2024 12:24:41,"1,333s",PASSED
+"setText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username""), user)",Chrome 122.0.0.0,,,04-03-2024 12:24:41,04-03-2024 12:24:42,"1,021s",PASSED
+"setMaskedText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password""),*********)",Chrome 122.0.0.0,,,04-03-2024 12:24:42,04-03-2024 12:24:44,"1,181s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter""))",Chrome 122.0.0.0,,,04-03-2024 12:24:44,04-03-2024 12:24:45,"1,672s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion""))",Chrome 122.0.0.0,,,04-03-2024 12:24:45,04-03-2024 12:24:47,"1,427s",PASSED
+closeBrowser(),Chrome 122.0.0.0,,,04-03-2024 12:24:47,04-03-2024 12:24:47,"0,804s",PASSED
+,,,,,,,
+Test Cases/Connexion_Deconnexion_LDAP_Valide,Chrome 122.0.0.0,,,04-03-2024 12:24:48,04-03-2024 12:25:05,"16,979s",PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 12:24:48,04-03-2024 12:24:50,"2,370s",PASSED
+"navigateToUrl(""http://credit-auto.qsiconseil.ma/"")",Chrome 122.0.0.0,,,04-03-2024 12:24:50,04-03-2024 12:24:55,"4,590s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto""))",Chrome 122.0.0.0,,,04-03-2024 12:24:55,04-03-2024 12:24:56,"1,361s",PASSED
+"setText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username""), user)",Chrome 122.0.0.0,,,04-03-2024 12:24:56,04-03-2024 12:24:57,"1,021s",PASSED
+"setMaskedText(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password""),*********)",Chrome 122.0.0.0,,,04-03-2024 12:24:57,04-03-2024 12:24:58,"1,266s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter""))",Chrome 122.0.0.0,,,04-03-2024 12:24:58,04-03-2024 12:25:00,"1,423s",PASSED
+"click(findTestObject(""Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion""))",Chrome 122.0.0.0,,,04-03-2024 12:25:00,04-03-2024 12:25:04,"3,938s",PASSED
+closeBrowser(),Chrome 122.0.0.0,,,04-03-2024 12:25:04,04-03-2024 12:25:05,"0,913s",PASSED

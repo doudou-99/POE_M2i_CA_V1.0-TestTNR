@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Authentification</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>ddde822a-685b-447b-be69-fb3bb6de2fdf</testSuiteGuid>
+   <testCaseLink>
+      <guid>99b87f02-585a-48da-ac9d-3822327caab4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Connexion_Deconnexion_Profils_LDAP_Valide</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9a2aa442-7d61-40ed-ac42-b45f53811a51</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Authentification/CA_JDD_Authentification_V1.0</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9a2aa442-7d61-40ed-ac42-b45f53811a51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USER</value>
+         <variableId>0da274b0-13d5-4fa7-8765-0c9769b28395</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9a2aa442-7d61-40ed-ac42-b45f53811a51</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>5bb26713-90a8-4214-86ae-29c717687543</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

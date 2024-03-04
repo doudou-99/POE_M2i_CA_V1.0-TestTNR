@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentification" time="22.914" tests="1" failures="0" errors="0">
+   <testsuite name="Authentification" tests="1" failures="0" errors="0" time="22.914" skipped="0" timestamp="04-03-2024T12:22:53" hostname="momar - ordimomar" id="Test Suites/Authentification">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\momar\\git\\POE_M2i_CA_V1.0-TestTNR\\Reports\\20240304_122235\\Authentification\\20240304_122235"/>
+         <property name="logFiles" value="C:\\Users\\momar\\git\\POE_M2i_CA_V1.0-TestTNR\\Reports\\20240304_122235\\Authentification\\20240304_122235\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="momar - ordimomar"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="f8f7526e87a54318ccb812ac3f27160c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Connexion_Deconnexion_LDAP_Valide" time="22.165" classname="Test Cases/Connexion_Deconnexion_LDAP_Valide" status="PASSED">
+         <system-out><![CDATA[04-03-2024T12:22:54 - [TEST_CASE][PASSED] - Test Cases/Connexion_Deconnexion_LDAP_Valide: Test Cases/Connexion_Deconnexion_LDAP_Valide
+
+04-03-2024T12:22:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T12:22:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-03-2024T12:22:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T12:23:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T12:23:01 - [TEST_STEP][PASSED] - navigateToUrl("http://credit-auto.qsiconseil.ma/"): Navigate to 'http://credit-auto.qsiconseil.ma/' successfully
+
+04-03-2024T12:23:06 - [MESSAGE][PASSED] - Navigate to 'http://credit-auto.qsiconseil.ma/' successfully
+
+04-03-2024T12:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto")): Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto' is clicked on
+
+04-03-2024T12:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/a_Accs Crdit Auto' is clicked on
+
+04-03-2024T12:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username"), user): Text 'rcd' is set on object 'Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username'
+
+04-03-2024T12:23:09 - [MESSAGE][PASSED] - Text 'rcd' is set on object 'Object Repository/Page_Crdit Auto  QSI Conseil/input_concat(Nom d, , utilisateur)__username'
+
+04-03-2024T12:23:09 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password"),*********): Text '*************' is set on object 'Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password'
+
+04-03-2024T12:23:11 - [MESSAGE][PASSED] - Text '*************' is set on object 'Object Repository/Page_Crdit Auto  QSI Conseil/input_Mot de passe__password'
+
+04-03-2024T12:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter")): Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter' is clicked on
+
+04-03-2024T12:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/button_Se connecter' is clicked on
+
+04-03-2024T12:23:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion")): Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion' is clicked on
+
+04-03-2024T12:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Crdit Auto  QSI Conseil/a_Dconnexion' is clicked on
+
+04-03-2024T12:23:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2024T12:23:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2024T12:22:53 - [TEST_SUITE][PASSED] - Authentification: Test Cases/Connexion_Deconnexion_LDAP_Valide]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

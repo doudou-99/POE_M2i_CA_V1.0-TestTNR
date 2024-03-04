@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Connexion_Deconnexion_LDAP_Valide","testCaseId":"Test Cases/Connexion_Deconnexion_LDAP_Valide","iterationVariableName":"","bindedValues":{"password":"\u0027acial!rcd2018\u0027","user":"\u0027rcd\u0027"}}
+{"testCaseName":"Test Cases/Connexion_Deconnexion_LDAP_Valide","testCaseId":"Test Cases/Connexion_Deconnexion_LDAP_Valide","iterationVariableName":"","bindedValues":{"password":"\u0027acial!acd2018\u0027","user":"\u0027lcd\u0027"}}
+{"testCaseName":"Test Cases/Connexion_Deconnexion_LDAP_Valide","testCaseId":"Test Cases/Connexion_Deconnexion_LDAP_Valide","iterationVariableName":"","bindedValues":{"password":"\u0027acial!gcd2018\u0027","user":"\u0027gcd\u0027"}}
+{"testCaseName":"Test Cases/Connexion_Deconnexion_LDAP_Valide","testCaseId":"Test Cases/Connexion_Deconnexion_LDAP_Valide","iterationVariableName":"","bindedValues":{"password":"\u0027acial!acd2018\u0027","user":"\u0027acd\u0027"}}
