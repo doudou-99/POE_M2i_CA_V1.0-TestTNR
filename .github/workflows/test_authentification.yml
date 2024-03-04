@@ -16,4 +16,4 @@ jobs:
       with:
           version: '9.3.1'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Authentification" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/Authentification" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
