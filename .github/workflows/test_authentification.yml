@@ -16,4 +16,4 @@ jobs:
       with:
           version: '9.3.1'
           projectPath: '${{ github.workspace }}'
-          args: '-noSplash -retry=0 -testSuitePath="Test Suites/Authentification" -apiKey= ${{ secrets.API_KEY }} -browserType=Chrome -dataFile="POE_M2i_CA_V1.0-TestTNR\CA_JDD_Authentification_V1.0.xlsx" --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -testSuitePath="Test Suites/Authentification" -apiKey= ${{ secrets.API_KEY }} -browserType=Chrome -dataFile="CA_JDD_Authentification_V1.0.xlsx" --config -webui.autoUpdateDrivers=true'
