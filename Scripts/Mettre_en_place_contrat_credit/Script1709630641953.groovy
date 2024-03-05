@@ -49,6 +49,28 @@ WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Montant 
 
 WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Duree_durees'), '30')
 
+montant_achat = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Montant achat_montantAchats'), 
+    'value')
+
+WebUI.verifyGreaterThan(java.lang.Integer.parseInt(montant_achat), 6250)
+
+WebUI.verifyLessThan(java.lang.Integer.parseInt(montant_achat), 50000)
+
+montant_credit = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Montant credit_montantCredits'), 
+    'value')
+
+WebUI.verifyGreaterThanOrEqual(java.lang.Integer.parseInt(montant_credit), 0.8 * java.lang.Integer.parseInt(montant_achat))
+
+WebUI.verifyGreaterThan(java.lang.Integer.parseInt(montant_credit), 5000)
+
+WebUI.verifyLessThan(java.lang.Integer.parseInt(montant_credit), 40000)
+
+duree_credit = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Duree_durees'), 'value')
+
+WebUI.verifyGreaterThan(java.lang.Integer.parseInt(duree_credit), 12)
+
+WebUI.verifyLessThan(java.lang.Integer.parseInt(duree_credit), 48)
+
 WebUI.click(findTestObject('Page_Mettre en place contrat credit/button_Calculer credit'))
 
 WebUI.verifyElementText(findTestObject('Page_Mettre en place contrat credit/legend_Nouveau contrat'), 'Nouveau contrat')
@@ -65,9 +87,17 @@ WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Prenom_f
 
 WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Nom_names'), 'DUCLOS')
 
+prenom_client = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Prenom_firstname'), 'value')
+
+nom_client = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Nom_names'), 'value')
+
 WebUI.click(findTestObject('Page_Mettre en place contrat credit/input_Prenom_btnRechercher'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Mettre en place contrat credit/table_Numero de compte'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent(prenom_client, false)
+
+WebUI.verifyTextPresent(nom_client, false)
 
 WebUI.executeJavaScript('document.querySelector("#customControlValidation2").click()', [])
 
@@ -75,15 +105,19 @@ WebUI.click(findTestObject('Page_Mettre en place contrat credit/button_Valide'))
 
 WebUI.verifyElementText(findTestObject('Page_Mettre en place contrat credit/i_Contrat de credit'), 'Contrat de crédit')
 
+WebUI.verifyTextPresent(prenom_client, false)
+
+WebUI.verifyTextPresent(nom_client, false)
+
 WebUI.verifyElementText(findTestObject('Page_Mettre en place contrat credit/p_Resume du contrat'), 'Résumé du contrat')
 
 WebUI.click(findTestObject('Page_Mettre en place contrat credit/button_Imprime'))
 
-WebUI.delay(15)
+WebUI.delay(5)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.delay(15)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Mettre en place contrat credit/button_Enregistre'))
 
