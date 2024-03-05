@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Accs Crdit Auto</name>
+   <name>a_Creer contrat</name>
    <tag></tag>
-   <elementGuidId>7809abc3-e87d-4647-90c0-78fff84e0c8c</elementGuidId>
+   <elementGuidId>8d01d74e-4058-423c-beb0-a65ed6fba97e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='lnkAccesCreditAuto']</value>
+         <value>(//a[@id='lnkCreerContrat'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#lnkAccesCreditAuto</value>
+         <value>div.form-group > #lnkCreerContrat</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Accès Crédit Auto&quot;i]</value>
+         <value>internal:role=link[name=&quot;Créer contrat&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,126 +29,116 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6b78ae7b-88b5-40de-96e7-74ff09e476f5</webElementGuid>
+      <webElementGuid>17d72407-4336-485d-b242-4b793d6c3987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>lnkAccesCreditAuto</value>
-      <webElementGuid>48c482fe-2ca1-4722-b31f-4a0588b781d6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-dark text-white btn-lg</value>
-      <webElementGuid>db53f9bc-9e53-486a-a030-19c96df81e52</webElementGuid>
+      <value>lnkCreerContrat</value>
+      <webElementGuid>4ba116a7-f0e5-4cc1-a62f-4cd0f81240e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>c9eb60af-2f5c-4f8c-87e9-8ad3a5bde6b2</webElementGuid>
+      <value>/credit/contract</value>
+      <webElementGuid>177dbaf1-1cbf-4bff-b992-c234e4a14bab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-light pull-right</value>
+      <webElementGuid>a634ee4c-1bf9-4990-910b-53a59d0e418a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Accès Crédit Auto</value>
-      <webElementGuid>42adc625-11ab-4d38-856a-867b59b1aa52</webElementGuid>
+      <value>
+                         Créer contrat
+                    </value>
+      <webElementGuid>7cd528ed-7edd-4621-9efc-ea77a4a1c157</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lnkAccesCreditAuto&quot;)</value>
-      <webElementGuid>8b2ac4a0-047c-4593-aba5-016833a21bba</webElementGuid>
+      <value>id(&quot;contract&quot;)/form[1]/fieldset[@class=&quot;scheduler-border&quot;]/div[@class=&quot;form-group&quot;]/a[@id=&quot;lnkCreerContrat&quot;]</value>
+      <webElementGuid>aece00ba-2328-4ef0-8016-ac91a2179754</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='lnkAccesCreditAuto']</value>
-      <webElementGuid>2e2b69b1-426a-4f17-a160-c788e5a128e8</webElementGuid>
+      <value>(//a[@id='lnkCreerContrat'])[2]</value>
+      <webElementGuid>5cb70a50-bffc-40ca-9817-e9a9449db643</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/a</value>
-      <webElementGuid>07541909-3b3c-4a7f-97c8-696dec6f808a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Accès Crédit Auto')]</value>
-      <webElementGuid>6247eeab-c1da-4b44-8d82-da740fcd2603</webElementGuid>
+      <value>//div[@id='contract']/form/fieldset/div/a[2]</value>
+      <webElementGuid>99b491f0-cf8b-4d79-b45d-23b2aa9fbe95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/following::a[1]</value>
-      <webElementGuid>b336a0a1-24c8-46ab-a738-1710736de361</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/following::a[1]</value>
+      <webElementGuid>29793a44-71ab-4c3c-94d7-4a658cca84da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crédit Auto'])[1]/following::a[2]</value>
-      <webElementGuid>421a6379-a1f6-4ecc-a2d5-848638dd7def</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montant achat'])[1]/preceding::a[1]</value>
+      <webElementGuid>27737188-8766-44ef-b5f9-0b1fb7f60035</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © QSI Conseil 2022'])[1]/preceding::a[1]</value>
-      <webElementGuid>88bbbf17-aa83-4d23-9384-e722d508ceea</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Accès Crédit Auto']/parent::*</value>
-      <webElementGuid>216c3c93-9866-4c1d-8c35-70bd59f35532</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Créer contrat']/parent::*</value>
+      <webElementGuid>1d542066-a700-4e8b-b7da-a8912214afe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>8d2325c3-81bf-4a83-82bf-a96bfc189f69</webElementGuid>
+      <value>//a[contains(@href, '/credit/contract')]</value>
+      <webElementGuid>45cc4d1f-13d4-406b-9cab-83f018e6c6d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>8ebb7765-0d3b-4a13-a37d-3890f960cbe0</webElementGuid>
+      <value>//a[2]</value>
+      <webElementGuid>911f43d7-326b-4069-a142-0451c7fb8383</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'lnkAccesCreditAuto' and @href = '/login' and (text() = 'Accès Crédit Auto' or . = 'Accès Crédit Auto')]</value>
-      <webElementGuid>211edada-3b38-4d76-87e5-34265bb5384b</webElementGuid>
+      <value>//a[@id = 'lnkCreerContrat' and @href = '/credit/contract' and (text() = '
+                         Créer contrat
+                    ' or . = '
+                         Créer contrat
+                    ')]</value>
+      <webElementGuid>1c6fe244-bbd2-4519-9113-e6cdc294f681</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

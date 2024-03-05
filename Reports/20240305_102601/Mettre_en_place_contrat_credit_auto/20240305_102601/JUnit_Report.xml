@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mettre_en_place_contrat_credit_auto" time="74.402" tests="1" failures="0" errors="0">
+   <testsuite name="Mettre_en_place_contrat_credit_auto" tests="1" failures="0" errors="0" time="74.402" skipped="0" timestamp="05-03-2024T10:26:15" hostname="momar - ordimomar" id="Test Suites/Mettre_en_place_contrat_credit_auto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\momar\\git\\POE_M2i_CA_V1.0-TestTNR\\Reports\\20240305_102601\\Mettre_en_place_contrat_credit_auto\\20240305_102601"/>
+         <property name="logFiles" value="C:\\Users\\momar\\git\\POE_M2i_CA_V1.0-TestTNR\\Reports\\20240305_102601\\Mettre_en_place_contrat_credit_auto\\20240305_102601\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="momar - ordimomar"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="cf5e61c3ccb58b8d9b2650540185f90f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Mettre_en_place_contrat_credit" time="73.889" classname="Test Cases/Mettre_en_place_contrat_credit" status="PASSED">
+         <system-out><![CDATA[05-03-2024T10:26:16 - [TEST_CASE][PASSED] - Test Cases/Mettre_en_place_contrat_credit: Test Cases/Mettre_en_place_contrat_credit
+
+05-03-2024T10:26:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T10:26:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T10:26:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T10:26:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T10:26:26 - [TEST_STEP][PASSED] - navigateToUrl("http://credit-auto.qsiconseil.ma/"): Navigate to 'http://credit-auto.qsiconseil.ma/' successfully
+
+05-03-2024T10:26:30 - [MESSAGE][PASSED] - Navigate to 'http://credit-auto.qsiconseil.ma/' successfully
+
+05-03-2024T10:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mettre en place contrat credit/a_Acces Crdit Auto")): Object: 'Object Repository/Page_Mettre en place contrat credit/a_Acces Crdit Auto' is clicked on
+
+05-03-2024T10:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/a_Acces Crdit Auto' is clicked on
+
+05-03-2024T10:26:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Crdit Auto  QSI Conseil/legend_Connectez-vous"), "Connectez-vous"): Actual text and expected text of test object 'Object Repository/Page_Crdit Auto  QSI Conseil/legend_Connectez-vous' are matched.
+
+05-03-2024T10:26:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Crdit Auto  QSI Conseil/legend_Connectez-vous' are matched.
+
+05-03-2024T10:26:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Mettre en place contrat credit/input_concat(Nom d, , utilisateur)__username"), "gcd"): Text 'gcd' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_concat(Nom d, , utilisateur)__username'
+
+05-03-2024T10:26:33 - [MESSAGE][PASSED] - Text 'gcd' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_concat(Nom d, , utilisateur)__username'
+
+05-03-2024T10:26:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Mettre en place contrat credit/input_Mot de passe__password"), "oA9cdRZTG5bKwKvIkkeDQw=="): Text ****** has been set on object 'Object Repository/Page_Mettre en place contrat credit/input_Mot de passe__password'
+
+05-03-2024T10:26:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Mettre en place contrat credit/input_Mot de passe__password'
+
+05-03-2024T10:26:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mettre en place contrat credit/button_Se connecter")): Object: 'Object Repository/Page_Mettre en place contrat credit/button_Se connecter' is clicked on
+
+05-03-2024T10:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/button_Se connecter' is clicked on
+
+05-03-2024T10:26:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Crdit Auto  QSI Conseil/h4_Bienvenue sur lapplication Crdit Auto"), "Bienvenue sur l'application Crédit Auto"): Actual text and expected text of test object 'Object Repository/Page_Crdit Auto  QSI Conseil/h4_Bienvenue sur lapplication Crdit Auto' are matched.
+
+05-03-2024T10:26:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Crdit Auto  QSI Conseil/h4_Bienvenue sur lapplication Crdit Auto' are matched.
+
+05-03-2024T10:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/a_Credit")): Object: 'Object Repository/Page_Mettre en place contrat credit/a_Credit' is clicked on
+
+05-03-2024T10:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/a_Credit' is clicked on
+
+05-03-2024T10:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/a_Creer contrat de credit auto")): Object: 'Object Repository/Page_Mettre en place contrat credit/a_Creer contrat de credit auto' is clicked on
+
+05-03-2024T10:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/a_Creer contrat de credit auto' is clicked on
+
+05-03-2024T10:26:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/h3_Creation dun contrat de crdit"), "Création d'un contrat de crédit"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/h3_Creation dun contrat de crdit' are matched.
+
+05-03-2024T10:26:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/h3_Creation dun contrat de crdit' are matched.
+
+05-03-2024T10:26:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/legend_Simulation dun crdit"), "Simulation d'un crédit"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Simulation dun crdit' are matched.
+
+05-03-2024T10:26:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Simulation dun crdit' are matched.
+
+05-03-2024T10:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mettre en place contrat credit/input_Montant achat_montantAchats"), "30000"): Text '30000' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Montant achat_montantAchats'
+
+05-03-2024T10:26:39 - [MESSAGE][PASSED] - Text '30000' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Montant achat_montantAchats'
+
+05-03-2024T10:26:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mettre en place contrat credit/input_Montant credit_montantCredits"), "27000"): Text '27000' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Montant credit_montantCredits'
+
+05-03-2024T10:26:40 - [MESSAGE][PASSED] - Text '27000' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Montant credit_montantCredits'
+
+05-03-2024T10:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mettre en place contrat credit/input_Duree_durees"), "30"): Text '30' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Duree_durees'
+
+05-03-2024T10:26:41 - [MESSAGE][PASSED] - Text '30' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Duree_durees'
+
+05-03-2024T10:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/button_Calculer credit")): Object: 'Object Repository/Page_Mettre en place contrat credit/button_Calculer credit' is clicked on
+
+05-03-2024T10:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/button_Calculer credit' is clicked on
+
+05-03-2024T10:26:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/legend_Nouveau contrat"), "Nouveau contrat"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Nouveau contrat' are matched.
+
+05-03-2024T10:26:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Nouveau contrat' are matched.
+
+05-03-2024T10:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/div_Echeancier")): Object: 'Object Repository/Page_Mettre en place contrat credit/div_Echeancier' is clicked on
+
+05-03-2024T10:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/div_Echeancier' is clicked on
+
+05-03-2024T10:26:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mettre en place contrat credit/div_Tableau echeances"), 30): Object 'Object Repository/Page_Mettre en place contrat credit/div_Tableau echeances' is present
+
+05-03-2024T10:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mettre en place contrat credit/div_Tableau echeances' is present
+
+05-03-2024T10:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/a_Creer contrat")): Object: 'Object Repository/Page_Mettre en place contrat credit/a_Creer contrat' is clicked on
+
+05-03-2024T10:26:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/a_Creer contrat' is clicked on
+
+05-03-2024T10:26:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/legend_Rechercher un client"), "Rechercher un client"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Rechercher un client' are matched.
+
+05-03-2024T10:26:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/legend_Rechercher un client' are matched.
+
+05-03-2024T10:26:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mettre en place contrat credit/input_Prenom_firstname"), "Jean"): Text 'Jean' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Prenom_firstname'
+
+05-03-2024T10:26:46 - [MESSAGE][PASSED] - Text 'Jean' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Prenom_firstname'
+
+05-03-2024T10:26:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mettre en place contrat credit/input_Nom_names"), "DUCLOS"): Text 'DUCLOS' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Nom_names'
+
+05-03-2024T10:26:47 - [MESSAGE][PASSED] - Text 'DUCLOS' is set on object 'Object Repository/Page_Mettre en place contrat credit/input_Nom_names'
+
+05-03-2024T10:26:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/input_Prenom_btnRechercher")): Object: 'Object Repository/Page_Mettre en place contrat credit/input_Prenom_btnRechercher' is clicked on
+
+05-03-2024T10:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/input_Prenom_btnRechercher' is clicked on
+
+05-03-2024T10:26:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Mettre en place contrat credit/table_Numero de compte"), STOP_ON_FAILURE): Object 'Object Repository/Page_Mettre en place contrat credit/table_Numero de compte' is visible
+
+05-03-2024T10:26:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mettre en place contrat credit/table_Numero de compte' is visible
+
+05-03-2024T10:26:48 - [TEST_STEP][PASSED] - executeJavaScript("document.querySelector("#customControlValidation2").click()", []): Execute JavaScript 'document.querySelector("#customControlValidation2").click()' successfully
+
+05-03-2024T10:26:48 - [MESSAGE][PASSED] - Execute JavaScript 'document.querySelector("#customControlValidation2").click()' successfully
+
+05-03-2024T10:26:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/button_Valide")): Object: 'Object Repository/Page_Mettre en place contrat credit/button_Valide' is clicked on
+
+05-03-2024T10:26:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/button_Valide' is clicked on
+
+05-03-2024T10:26:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/i_Contrat de credit"), "Contrat de crédit"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/i_Contrat de credit' are matched.
+
+05-03-2024T10:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/i_Contrat de credit' are matched.
+
+05-03-2024T10:26:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Mettre en place contrat credit/p_Resume du contrat"), "Résumé du contrat"): Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/p_Resume du contrat' are matched.
+
+05-03-2024T10:26:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Mettre en place contrat credit/p_Resume du contrat' are matched.
+
+05-03-2024T10:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mettre en place contrat credit/button_Imprime")): Object: 'Object Repository/Page_Mettre en place contrat credit/button_Imprime' is clicked on
+
+05-03-2024T10:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/button_Imprime' is clicked on
+
+05-03-2024T10:26:57 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+05-03-2024T10:27:12 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+05-03-2024T10:27:12 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+05-03-2024T10:27:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+05-03-2024T10:27:12 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+05-03-2024T10:27:27 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+05-03-2024T10:27:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mettre en place contrat credit/button_Enregistre")): Object: 'Object Repository/Page_Mettre en place contrat credit/button_Enregistre' is clicked on
+
+05-03-2024T10:27:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/button_Enregistre' is clicked on
+
+05-03-2024T10:27:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Mettre en place contrat credit/div_Contrat cree avec succes"), STOP_ON_FAILURE): Object 'Object Repository/Page_Mettre en place contrat credit/div_Contrat cree avec succes' is visible
+
+05-03-2024T10:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mettre en place contrat credit/div_Contrat cree avec succes' is visible
+
+05-03-2024T10:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mettre en place contrat credit/a_Deconnexion")): Object: 'Object Repository/Page_Mettre en place contrat credit/a_Deconnexion' is clicked on
+
+05-03-2024T10:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mettre en place contrat credit/a_Deconnexion' is clicked on
+
+05-03-2024T10:27:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Mettre en place contrat credit/a_Credit Auto"), 30): Object 'Object Repository/Page_Mettre en place contrat credit/a_Credit Auto' is present
+
+05-03-2024T10:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mettre en place contrat credit/a_Credit Auto' is present
+
+05-03-2024T10:27:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T10:27:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T10:26:15 - [TEST_SUITE][PASSED] - Mettre_en_place_contrat_credit_auto: Test Cases/Mettre_en_place_contrat_credit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

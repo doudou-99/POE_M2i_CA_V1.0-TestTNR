@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legend_Nouveau contrat</name>
+   <tag></tag>
+   <elementGuidId>1aed125e-8d61-49a7-8453-6d0da74ff610</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contract']/form/fieldset/legend</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>legend.scheduler-border</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Nouveau contrat&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legend</value>
+      <webElementGuid>6d3ba0dc-ea3b-4bf5-b211-20fbc0b4cc0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>scheduler-border</value>
+      <webElementGuid>6679151b-2b23-4c84-aeba-b284a1cf68cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                  Nouveau contrat             </value>
+      <webElementGuid>f1842378-56e6-4cf9-8cac-03f595a6751c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contract&quot;)/form[1]/fieldset[@class=&quot;scheduler-border&quot;]/legend[@class=&quot;scheduler-border&quot;]</value>
+      <webElementGuid>0f73a73b-5e0a-434f-986f-d734dee23601</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contract']/form/fieldset/legend</value>
+      <webElementGuid>ce982b1d-aa8d-4ced-96c6-9430f9b7cff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Déconnexion'])[1]/following::legend[1]</value>
+      <webElementGuid>920a267f-1e2f-4c47-ad0e-9c05341a6dfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/preceding::legend[1]</value>
+      <webElementGuid>29cf6aa2-2532-428f-bcde-4e98b79517ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Nouveau contrat']/parent::*</value>
+      <webElementGuid>ec743ad4-c3d6-4cb5-9bda-2b659debaeb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//legend</value>
+      <webElementGuid>9b69eb2c-c5d2-4f80-81ca-f6900cbfbbca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//legend[(text() = '
+                  Nouveau contrat             ' or . = '
+                  Nouveau contrat             ')]</value>
+      <webElementGuid>6e801626-cfc9-413c-b543-0b97d60ad266</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

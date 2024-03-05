@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>legend_Simulation dun crdit</name>
+   <tag></tag>
+   <elementGuidId>6c682fb1-1c88-4ef9-905c-912ff8d5b063</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='contract']/form/fieldset/legend</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>legend.scheduler-border</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Simulation d'un crédit&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>legend</value>
+      <webElementGuid>9d8e034d-15f4-46c7-b402-eac09c23de50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>scheduler-border</value>
+      <webElementGuid>808cc464-3c64-4f3a-b971-5aba2d43e0ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                 Simulation d'un crédit             </value>
+      <webElementGuid>57015f96-f896-4d1f-ae5c-e9ff7c67da68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;contract&quot;)/form[1]/fieldset[@class=&quot;scheduler-border&quot;]/legend[@class=&quot;scheduler-border&quot;]</value>
+      <webElementGuid>75e76fe1-6522-4fd3-9b35-9328e3df3a8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='contract']/form/fieldset/legend</value>
+      <webElementGuid>5cd7004e-2170-41b2-b97f-c86469510e4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Déconnexion'])[1]/following::legend[1]</value>
+      <webElementGuid>637295c9-025e-4cea-9f5e-a84e0056675f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/preceding::legend[1]</value>
+      <webElementGuid>6f50d661-0287-4d77-9f3b-e8e79284e5c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//legend</value>
+      <webElementGuid>d69e7cff-708b-45cc-a241-f6c6cff84bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//legend[(text() = concat(&quot;
+                 Simulation d&quot; , &quot;'&quot; , &quot;un crédit             &quot;) or . = concat(&quot;
+                 Simulation d&quot; , &quot;'&quot; , &quot;un crédit             &quot;))]</value>
+      <webElementGuid>2c12edce-ba5b-448f-ac62-d7fd1261dd3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

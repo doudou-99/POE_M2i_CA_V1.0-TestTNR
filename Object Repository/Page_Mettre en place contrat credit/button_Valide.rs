@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Accs Crdit Auto</name>
+   <name>button_Valide</name>
    <tag></tag>
-   <elementGuidId>7809abc3-e87d-4647-90c0-78fff84e0c8c</elementGuidId>
+   <elementGuidId>26712f1d-3a80-4a3e-95dd-b4f5ff45d36b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='lnkAccesCreditAuto']</value>
+         <value>//button[@id='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#lnkAccesCreditAuto</value>
+         <value>#submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Accès Crédit Auto&quot;i]</value>
+         <value>internal:role=button[name=&quot;Valider&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,127 +28,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>6b78ae7b-88b5-40de-96e7-74ff09e476f5</webElementGuid>
+      <value>button</value>
+      <webElementGuid>06e02987-6782-410e-810c-36cc2f1307d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>813480a0-3bc8-40be-87ee-28ae1132780a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>lnkAccesCreditAuto</value>
-      <webElementGuid>48c482fe-2ca1-4722-b31f-4a0588b781d6</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>f4c8382f-3486-4a2c-a863-164f19a4e8fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>createContract()</value>
+      <webElementGuid>1673e12f-6939-4241-9cdf-8a7a26ab02f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-dark text-white btn-lg</value>
-      <webElementGuid>db53f9bc-9e53-486a-a030-19c96df81e52</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>c9eb60af-2f5c-4f8c-87e9-8ad3a5bde6b2</webElementGuid>
+      <value>text-center center-block btn btn-dark</value>
+      <webElementGuid>019261fe-7223-40ad-bf74-5c91e66f84ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Accès Crédit Auto</value>
-      <webElementGuid>42adc625-11ab-4d38-856a-867b59b1aa52</webElementGuid>
+      <value>Valider</value>
+      <webElementGuid>e7beb76d-f85c-4933-ab03-029463e0c57e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lnkAccesCreditAuto&quot;)</value>
-      <webElementGuid>8b2ac4a0-047c-4593-aba5-016833a21bba</webElementGuid>
+      <value>id(&quot;submit&quot;)</value>
+      <webElementGuid>00aad38b-5d9e-420f-a24b-9312abab395e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='lnkAccesCreditAuto']</value>
-      <webElementGuid>2e2b69b1-426a-4f17-a160-c788e5a128e8</webElementGuid>
+      <value>//button[@id='submit']</value>
+      <webElementGuid>01799385-be7e-4119-a97f-5f6b72352cb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/a</value>
-      <webElementGuid>07541909-3b3c-4a7f-97c8-696dec6f808a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Accès Crédit Auto')]</value>
-      <webElementGuid>6247eeab-c1da-4b44-8d82-da740fcd2603</webElementGuid>
+      <value>//div[@id='contract']/fieldset/form[2]/button</value>
+      <webElementGuid>951e6073-7ba4-450c-9e08-48d88a2b2d21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/following::a[1]</value>
-      <webElementGuid>b336a0a1-24c8-46ab-a738-1710736de361</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jean'])[3]/following::button[1]</value>
+      <webElementGuid>de71a9d4-fc34-4dc2-8119-c73134874234</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crédit Auto'])[1]/following::a[2]</value>
-      <webElementGuid>421a6379-a1f6-4ecc-a2d5-848638dd7def</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duclos'])[1]/following::button[1]</value>
+      <webElementGuid>3435c18f-1a69-45a7-8614-324177cb5520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © QSI Conseil 2022'])[1]/preceding::a[1]</value>
-      <webElementGuid>88bbbf17-aa83-4d23-9384-e722d508ceea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Veuillez saisir au moins un champ de recherche'])[1]/preceding::button[2]</value>
+      <webElementGuid>ff0b3ae9-c153-4813-9a01-7c3cd5a05325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Accès Crédit Auto']/parent::*</value>
-      <webElementGuid>216c3c93-9866-4c1d-8c35-70bd59f35532</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>8d2325c3-81bf-4a83-82bf-a96bfc189f69</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Valider']/parent::*</value>
+      <webElementGuid>6e02159a-625f-4d92-ad11-373bbb113eb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>8ebb7765-0d3b-4a13-a37d-3890f960cbe0</webElementGuid>
+      <value>//form[2]/button</value>
+      <webElementGuid>31fe97c4-0310-43cf-b108-ef91c0d487ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'lnkAccesCreditAuto' and @href = '/login' and (text() = 'Accès Crédit Auto' or . = 'Accès Crédit Auto')]</value>
-      <webElementGuid>211edada-3b38-4d76-87e5-34265bb5384b</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'submit' and (text() = 'Valider' or . = 'Valider')]</value>
+      <webElementGuid>c275d3fe-dd0d-4431-81a4-b0f094e1f6e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

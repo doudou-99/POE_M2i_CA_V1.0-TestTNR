@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Se connecter</name>
+   <name>button_Calculer credit</name>
    <tag></tag>
-   <elementGuidId>64828f91-69ed-438e-a99e-68f0951c03fa</elementGuidId>
+   <elementGuidId>26996dfe-d1aa-4ffa-953d-1e6190e03959</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@id='calcul']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-dark</value>
+         <value>#calcul</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Se connecter&quot;i]</value>
+         <value>internal:role=button[name=&quot;Calculer crédit&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>33b7ec95-be64-41dd-81a2-381b43a6a9d4</webElementGuid>
+      <webElementGuid>4b32825c-7701-4d2d-a6dc-0aeb26d9025b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>calcul</value>
+      <webElementGuid>9404c8ca-e1de-4a00-aa9e-c6b36d6f0569</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-dark pull-right</value>
+      <webElementGuid>0c6f46f0-f2c0-410e-b345-35a4d6fc5eab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6c4c1be9-5637-4707-88b6-1322c9ec01b8</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-dark</value>
-      <webElementGuid>d25b5ae4-bdb7-480b-a797-62723dccdfdf</webElementGuid>
+      <webElementGuid>83394a3d-8fbd-4d33-976a-a4548332c806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,76 +61,76 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                             Se connecter
-                        </value>
-      <webElementGuid>6ba633f8-4099-4a18-b8b4-0556b1be7e5c</webElementGuid>
+                     Calculer crédit
+                </value>
+      <webElementGuid>421dae1b-1d87-40cb-a4c6-8a053e6d73d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;offset-lg-3 offset-md-3 offset-sm-3 col-sm-6&quot;]/div[@class=&quot;jumbotron&quot;]/form[1]/fieldset[1]/button[@class=&quot;btn btn-dark&quot;]</value>
-      <webElementGuid>2028291d-d998-4f08-bd84-52d07b7efcc7</webElementGuid>
+      <value>id(&quot;calcul&quot;)</value>
+      <webElementGuid>a11163ec-f2fe-4b78-a1e6-1ef242d792f5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>df9d50f2-a128-4c71-931a-b28841cf4fc9</webElementGuid>
+      <value>//button[@id='calcul']</value>
+      <webElementGuid>884d9a11-3839-4e55-ae1b-7d990e3f5cfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/button</value>
-      <webElementGuid>8295df90-c03f-4b1b-93e2-925c1b2e65cb</webElementGuid>
+      <value>//div[@id='contract']/form/fieldset/div/button</value>
+      <webElementGuid>2c3d5fd3-8031-4bd3-9b62-5b6358c108b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mot de passe'])[1]/following::button[1]</value>
-      <webElementGuid>93820e08-6900-4df1-8042-df9918235884</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/following::button[1]</value>
+      <webElementGuid>49b4397b-2295-4966-98ea-2f64abf74379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © QSI Conseil 2022'])[1]/preceding::button[1]</value>
-      <webElementGuid>e09d687e-3ddc-475c-8fbd-5b90e4e8d129</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montant achat'])[1]/preceding::button[1]</value>
+      <webElementGuid>5dd70d58-ed9d-4bb4-af79-36c0831e6f2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Se connecter']/parent::*</value>
-      <webElementGuid>602b5750-c6bf-4aea-b2d2-ac2aa1e51ca8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Calculer crédit']/parent::*</value>
+      <webElementGuid>64d48697-a138-45e2-a132-1e988f04dc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/button</value>
-      <webElementGuid>f45519d2-d04f-4a2e-b89c-a0c7b04e684f</webElementGuid>
+      <value>//div/button</value>
+      <webElementGuid>1035acef-3f5e-49b4-ba3b-4da0bf852bd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                             Se connecter
-                        ' or . = '
-                             Se connecter
-                        ')]</value>
-      <webElementGuid>328cec3c-92f1-45e0-8c42-ee14c4228cdb</webElementGuid>
+      <value>//button[@id = 'calcul' and @type = 'submit' and (text() = '
+                     Calculer crédit
+                ' or . = '
+                     Calculer crédit
+                ')]</value>
+      <webElementGuid>b838b099-3d34-40c6-a07b-1e4958f96d9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Se connecter</name>
+   <name>div_Echeancier</name>
    <tag></tag>
-   <elementGuidId>64828f91-69ed-438e-a99e-68f0951c03fa</elementGuidId>
+   <elementGuidId>203b93a2-53ba-4bc2-bcde-fbc52149d8c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='ech']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-dark</value>
+         <value>#ech</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Se connecter&quot;i]</value>
+         <value>internal:role=button[name=&quot;Echéancier&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,24 +28,40 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d98bc02-4f29-4d2c-a5b3-c3599f5066b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
       <value>button</value>
-      <webElementGuid>33b7ec95-be64-41dd-81a2-381b43a6a9d4</webElementGuid>
+      <webElementGuid>7c8d109f-918d-4cdf-ac85-ef721c07e426</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>lol()</value>
+      <webElementGuid>659258fa-8f20-43cf-b076-00c9e9e4dcc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>6c4c1be9-5637-4707-88b6-1322c9ec01b8</webElementGuid>
+      <value>ech</value>
+      <webElementGuid>7d3ca5af-b073-41de-acf4-67fd51e17839</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-dark</value>
-      <webElementGuid>d25b5ae4-bdb7-480b-a797-62723dccdfdf</webElementGuid>
+      <value>btn btn-outline-dark pull-right ml-3</value>
+      <webElementGuid>b7fd6ff1-baab-4ecd-a63f-6b60720b6af8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,76 +69,76 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                             Se connecter
-                        </value>
-      <webElementGuid>6ba633f8-4099-4a18-b8b4-0556b1be7e5c</webElementGuid>
+                         Echéancier
+                    </value>
+      <webElementGuid>9c2518be-9c28-436c-a8c3-fd04d877596c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;offset-lg-3 offset-md-3 offset-sm-3 col-sm-6&quot;]/div[@class=&quot;jumbotron&quot;]/form[1]/fieldset[1]/button[@class=&quot;btn btn-dark&quot;]</value>
-      <webElementGuid>2028291d-d998-4f08-bd84-52d07b7efcc7</webElementGuid>
+      <value>id(&quot;ech&quot;)</value>
+      <webElementGuid>3b1305f1-cc97-4589-a9c1-135ce770f2f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>df9d50f2-a128-4c71-931a-b28841cf4fc9</webElementGuid>
+      <value>//div[@id='ech']</value>
+      <webElementGuid>ff32e51e-26ce-4868-a015-197a81188372</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/button</value>
-      <webElementGuid>8295df90-c03f-4b1b-93e2-925c1b2e65cb</webElementGuid>
+      <value>//div[@id='contract']/form/fieldset/div/div</value>
+      <webElementGuid>4dad677e-3b7f-41fe-86ee-a6b352cf134b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mot de passe'])[1]/following::button[1]</value>
-      <webElementGuid>93820e08-6900-4df1-8042-df9918235884</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuler'])[1]/following::div[1]</value>
+      <webElementGuid>97f7b70d-73c2-4c77-9e96-d2303f364b66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © QSI Conseil 2022'])[1]/preceding::button[1]</value>
-      <webElementGuid>e09d687e-3ddc-475c-8fbd-5b90e4e8d129</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Montant achat'])[1]/preceding::div[1]</value>
+      <webElementGuid>d8a243e1-da9a-4f6a-b85e-e53d47fc0a5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Se connecter']/parent::*</value>
-      <webElementGuid>602b5750-c6bf-4aea-b2d2-ac2aa1e51ca8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Echéancier']/parent::*</value>
+      <webElementGuid>6ef35471-e008-41c0-b239-425f3546669d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/button</value>
-      <webElementGuid>f45519d2-d04f-4a2e-b89c-a0c7b04e684f</webElementGuid>
+      <value>//fieldset/div/div</value>
+      <webElementGuid>cc814705-7c36-47dd-adea-49a7cb8bf80d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                             Se connecter
-                        ' or . = '
-                             Se connecter
-                        ')]</value>
-      <webElementGuid>328cec3c-92f1-45e0-8c42-ee14c4228cdb</webElementGuid>
+      <value>//div[@id = 'ech' and (text() = '
+                         Echéancier
+                    ' or . = '
+                         Echéancier
+                    ')]</value>
+      <webElementGuid>ac749116-6153-45ac-87f8-c2e79e5f87ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

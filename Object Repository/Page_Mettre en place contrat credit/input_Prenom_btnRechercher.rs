@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_concat(Nom d, , utilisateur)__username</name>
+   <name>input_Prenom_btnRechercher</name>
    <tag></tag>
-   <elementGuidId>418fa05e-1119-4bb3-a44c-6dd95842c784</elementGuidId>
+   <elementGuidId>d470b72c-ae1b-4dd0-be53-ed68dd090ead</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@id='btnRechercher']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#username</value>
+         <value>#btnRechercher</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Nom d'utilisateur&quot;i</value>
+         <value>internal:role=button[name=&quot;Rechercher&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f19871d3-8469-4e8f-ac8d-e9c0ec66048e</webElementGuid>
+      <webElementGuid>3eabc63b-74eb-4749-af3b-8f41f7f96e8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>4228dff1-b1c8-49c2-a98f-24449f4d171c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>26024ca5-f531-42f6-a327-240164259b7e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>_username</value>
-      <webElementGuid>c7298dab-2c18-430e-b82a-b286b2999641</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>b01bd79d-fef2-4271-8421-f35d8123273f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>73f27fab-ec57-47cb-962d-75d59e6b169b</webElementGuid>
+      <value>btn btn-dark ml-3</value>
+      <webElementGuid>8cb74e8e-813d-4e2b-99cf-85c640853296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>btnRechercher</value>
+      <webElementGuid>dad6f1af-811e-4911-a2d1-811f0e993403</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Rechercher</value>
+      <webElementGuid>a4421fbf-d8ce-4c21-aef6-42986abf53e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)</value>
-      <webElementGuid>e5a2e786-b7c5-4586-bbe6-cb9dd0785d0f</webElementGuid>
+      <value>id(&quot;btnRechercher&quot;)</value>
+      <webElementGuid>706ca2b0-ac9e-4694-8d18-631507490844</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='username']</value>
-      <webElementGuid>6b791792-53d7-4ffe-a056-d69061555230</webElementGuid>
+      <value>//input[@id='btnRechercher']</value>
+      <webElementGuid>13319fbe-4459-4299-bfe8-985cd59c990b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/div/input</value>
-      <webElementGuid>728b8328-7427-4acb-b631-bef3272697e5</webElementGuid>
+      <value>//div[@id='contract']/fieldset/form/div/input[3]</value>
+      <webElementGuid>3817ea16-9d6a-4b89-8a6e-86a9051bb60c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>8a6a8cb3-d0a5-4e10-8caf-4c6529da41c3</webElementGuid>
+      <value>//input[3]</value>
+      <webElementGuid>c9dc3ac1-e951-4fc6-8078-56cbfe596a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'username' and @name = '_username']</value>
-      <webElementGuid>b12cdbbc-7467-4f3b-bc04-d8f379825441</webElementGuid>
+      <value>//input[@type = 'submit' and @id = 'btnRechercher']</value>
+      <webElementGuid>b645aa77-6b27-43ea-9904-447d1af18659</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

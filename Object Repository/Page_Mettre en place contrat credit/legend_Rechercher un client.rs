@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Crdit Auto</name>
+   <name>legend_Rechercher un client</name>
    <tag></tag>
-   <elementGuidId>087d02fa-1952-4028-b09b-1cddfb05b252</elementGuidId>
+   <elementGuidId>2e2c8cc8-ed08-4edd-99f2-cfc30a01e52b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//nav[@id='mainNav']/a</value>
+         <value>//div[@id='contract']/fieldset/legend</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.navbar-brand.js-scroll-trigger</value>
+         <value>legend.scheduler-border.text-left</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Crédit Auto&quot;i]</value>
+         <value>internal:text=&quot;Rechercher un client&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,103 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>c1f08294-33d8-4fc9-b7be-72589093f6e1</webElementGuid>
+      <value>legend</value>
+      <webElementGuid>9a130ab4-8041-4769-9801-e61d4428b34f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navbar-brand js-scroll-trigger</value>
-      <webElementGuid>52705cbd-9844-44bd-ae28-dd2fc3acf4c0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/</value>
-      <webElementGuid>fbf020bb-55e5-44ce-8509-255bb4bd419e</webElementGuid>
+      <value>scheduler-border text-left</value>
+      <webElementGuid>841e2beb-35fb-483c-89dd-e669cca6fccf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Crédit Auto</value>
-      <webElementGuid>51a18ea2-2acc-4425-9ddf-5a23a104a458</webElementGuid>
+      <value> Rechercher un client</value>
+      <webElementGuid>17c0eab4-8cc2-4327-a920-5f458b059c8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainNav&quot;)/a[@class=&quot;navbar-brand js-scroll-trigger&quot;]</value>
-      <webElementGuid>7359e79b-cc06-4209-828b-db999e068aae</webElementGuid>
+      <value>id(&quot;contract&quot;)/fieldset[@class=&quot;scheduler-border&quot;]/legend[@class=&quot;scheduler-border text-left&quot;]</value>
+      <webElementGuid>098eaba2-d0a1-4381-8fb7-78d03e185b6e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//nav[@id='mainNav']/a</value>
-      <webElementGuid>38e02c89-cde6-4a83-9c9d-6be782f91d14</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Crédit Auto')]</value>
-      <webElementGuid>d71f3b27-823c-4ce1-b4fd-cfae19354b9f</webElementGuid>
+      <value>//div[@id='contract']/fieldset/legend</value>
+      <webElementGuid>70fcddab-fe5b-4586-887f-5d359b9ff0a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/preceding::a[1]</value>
-      <webElementGuid>1f6e87f3-7d8a-46d0-be10-618b3e8f8cc5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Déconnexion'])[1]/following::legend[1]</value>
+      <webElementGuid>76c63974-481f-4784-96f8-0d3b26a3801c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connectez-vous'])[1]/preceding::a[2]</value>
-      <webElementGuid>86ed6a93-4b98-45e5-9217-f9222fdfd781</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nom'])[1]/preceding::legend[1]</value>
+      <webElementGuid>650a71ba-c605-454b-90ce-2f24b78a45d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Crédit Auto']/parent::*</value>
-      <webElementGuid>e2faf746-b73f-4fcb-9960-f76b96930f01</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prénom'])[1]/preceding::legend[1]</value>
+      <webElementGuid>86423ee3-3f61-48ea-8874-1ffe258bb5a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/')]</value>
-      <webElementGuid>df9d85c1-e60c-4017-83d8-70da1f67ce93</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Rechercher un client']/parent::*</value>
+      <webElementGuid>db07b499-4469-4a75-a0f0-f7f7efd54bf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
-      <webElementGuid>ff05250a-4bea-4f8b-9ff8-0710c408dac6</webElementGuid>
+      <value>//legend</value>
+      <webElementGuid>ff9cc72e-66dd-4269-b7ae-052ebff307b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/' and (text() = 'Crédit Auto' or . = 'Crédit Auto')]</value>
-      <webElementGuid>24b38702-0296-4232-b04a-9a3d5ac523e7</webElementGuid>
+      <value>//legend[(text() = ' Rechercher un client' or . = ' Rechercher un client')]</value>
+      <webElementGuid>96fa65d0-6ab2-4fb2-b305-87170f2244cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

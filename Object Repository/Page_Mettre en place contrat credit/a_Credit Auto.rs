@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Se connecter</name>
+   <name>a_Credit Auto</name>
    <tag></tag>
-   <elementGuidId>64828f91-69ed-438e-a99e-68f0951c03fa</elementGuidId>
+   <elementGuidId>087d02fa-1952-4028-b09b-1cddfb05b252</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//nav[@id='mainNav']/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-dark</value>
+         <value>a.navbar-brand.js-scroll-trigger</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Se connecter&quot;i]</value>
+         <value>internal:role=link[name=&quot;Crédit Auto&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,101 +28,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>33b7ec95-be64-41dd-81a2-381b43a6a9d4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>6c4c1be9-5637-4707-88b6-1322c9ec01b8</webElementGuid>
+      <value>a</value>
+      <webElementGuid>c1f08294-33d8-4fc9-b7be-72589093f6e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-dark</value>
-      <webElementGuid>d25b5ae4-bdb7-480b-a797-62723dccdfdf</webElementGuid>
+      <value>navbar-brand js-scroll-trigger</value>
+      <webElementGuid>52705cbd-9844-44bd-ae28-dd2fc3acf4c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>fbf020bb-55e5-44ce-8509-255bb4bd419e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                             Se connecter
-                        </value>
-      <webElementGuid>6ba633f8-4099-4a18-b8b4-0556b1be7e5c</webElementGuid>
+      <value>Crédit Auto</value>
+      <webElementGuid>51a18ea2-2acc-4425-9ddf-5a23a104a458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-top&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;offset-lg-3 offset-md-3 offset-sm-3 col-sm-6&quot;]/div[@class=&quot;jumbotron&quot;]/form[1]/fieldset[1]/button[@class=&quot;btn btn-dark&quot;]</value>
-      <webElementGuid>2028291d-d998-4f08-bd84-52d07b7efcc7</webElementGuid>
+      <value>id(&quot;mainNav&quot;)/a[@class=&quot;navbar-brand js-scroll-trigger&quot;]</value>
+      <webElementGuid>7359e79b-cc06-4209-828b-db999e068aae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>df9d50f2-a128-4c71-931a-b28841cf4fc9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//body[@id='page-top']/div[2]/div/div/form/fieldset/button</value>
-      <webElementGuid>8295df90-c03f-4b1b-93e2-925c1b2e65cb</webElementGuid>
+      <value>//nav[@id='mainNav']/a</value>
+      <webElementGuid>38e02c89-cde6-4a83-9c9d-6be782f91d14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Crédit Auto')]</value>
+      <webElementGuid>d71f3b27-823c-4ce1-b4fd-cfae19354b9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mot de passe'])[1]/following::button[1]</value>
-      <webElementGuid>93820e08-6900-4df1-8042-df9918235884</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accueil'])[1]/preceding::a[1]</value>
+      <webElementGuid>1f6e87f3-7d8a-46d0-be10-618b3e8f8cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © QSI Conseil 2022'])[1]/preceding::button[1]</value>
-      <webElementGuid>e09d687e-3ddc-475c-8fbd-5b90e4e8d129</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connectez-vous'])[1]/preceding::a[2]</value>
+      <webElementGuid>86ed6a93-4b98-45e5-9217-f9222fdfd781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Se connecter']/parent::*</value>
-      <webElementGuid>602b5750-c6bf-4aea-b2d2-ac2aa1e51ca8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Crédit Auto']/parent::*</value>
+      <webElementGuid>e2faf746-b73f-4fcb-9960-f76b96930f01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/')]</value>
+      <webElementGuid>df9d85c1-e60c-4017-83d8-70da1f67ce93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/button</value>
-      <webElementGuid>f45519d2-d04f-4a2e-b89c-a0c7b04e684f</webElementGuid>
+      <value>//a</value>
+      <webElementGuid>ff05250a-4bea-4f8b-9ff8-0710c408dac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                             Se connecter
-                        ' or . = '
-                             Se connecter
-                        ')]</value>
-      <webElementGuid>328cec3c-92f1-45e0-8c42-ee14c4228cdb</webElementGuid>
+      <value>//a[@href = '/' and (text() = 'Crédit Auto' or . = 'Crédit Auto')]</value>
+      <webElementGuid>24b38702-0296-4232-b04a-9a3d5ac523e7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
