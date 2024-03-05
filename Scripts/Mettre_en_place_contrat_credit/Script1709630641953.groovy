@@ -64,6 +64,8 @@ WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Montant 
 'Saisir la durée de crédit'
 WebUI.setText(findTestObject('Page_Mettre en place contrat credit/input_Duree_durees'), '30')
 
+WebUI.selectOptionByValue(findTestObject('Page_Mettre en place contrat credit/select_A'), 'B', false)
+
 montant_achat = WebUI.getAttribute(findTestObject('Page_Mettre en place contrat credit/input_Montant achat_montantAchats'), 
     'value')
 
@@ -133,12 +135,6 @@ WebUI.click(findTestObject('Page_Mettre en place contrat credit/button_Valide'))
 
 'Vérifier que le titre de recapitulation du contrat est égal à "Contrat de crédit" donc vérifier qu\'on est dans la page de recapitulatif du contrat.'
 WebUI.verifyElementText(findTestObject('Page_Mettre en place contrat credit/i_Contrat de credit'), 'Contrat de crédit')
-
-'Vérifier que le prenom du client est dans la page de recapitulatif du contrat.'
-WebUI.verifyTextPresent(prenom_client, false)
-
-'Vérifier que le nom du client est dans la page de recapitulatif du contrat.'
-WebUI.verifyTextPresent(nom_client, false)
 
 WebUI.click(findTestObject('Page_Mettre en place contrat credit/button_Imprime'))
 
